@@ -9,7 +9,7 @@ function App() {
           <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
         </ul>
       }}/>
-      <Route path="/navbar" component={NavBar} />
+      <Route path="/navbar" exact component={NavBar} />
     </Router>
   );
 }
