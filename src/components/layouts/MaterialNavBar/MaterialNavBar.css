@@ -1,0 +1,63 @@
+nav.MaterialNavBar {
+    width: 100%;
+    height: 5vh;
+    background-color: blueviolet;
+    height: auto;
+    padding: 15px 25px;
+    box-sizing: border-box;
+  }
+  nav.MaterialNavBar li a.active {
+    border-bottom: 3px solid red;
+  }
+  nav.MaterialNavBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+  }
+  nav.MaterialNavBar ul li {
+    margin: 5px 10px;
+  }
+  nav.MaterialNavBar ul li.menu {
+    display: none;
+    font-size: 22px;
+  }
+  nav.MaterialNavBar ul form {
+      flex: 1;
+      text-align: right;
+  }
+  nav.MaterialNavBar ul .dropdown {
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 75px;
+  }
+  nav.MaterialNavBar ul .active {
+    display: block;
+  }
+  nav.MaterialNavBar ul .dropdown > * {
+    color: black;
+    display: block;
+    margin: 4px;
+    padding: 4px;
+  }
+  nav.MaterialNavBar ul .dropdown > *:hover
+  {
+    background-color: blueviolet;
+  }
+  nav.MaterialNavBar ul form input {
+   padding: 5px;
+   outline: none;
+   color: white;
+   border: none;
+   border-bottom: 2px solid red ;
+   background-color: blueviolet;
+  }
+  nav.MaterialNavBar ul form input::placeholder {
+    color: white;
+  }
+  @media screen  and (max-width: 720px){
+    
+  }
