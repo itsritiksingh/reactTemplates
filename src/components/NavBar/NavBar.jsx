@@ -12,7 +12,7 @@ export const NavBar = () => {
           "About Us": { link: "/aboutus" },
           Menu: { link: "/menu" },
           "Banquet facility": { link: "/banquet" },
-          Gallery: {link: "/gallery"},
+          photos: {link: "/gallery"},
           Catering: {link : "/catering"}
         }}/> 
 
