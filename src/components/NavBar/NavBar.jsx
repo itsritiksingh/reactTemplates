@@ -2,6 +2,7 @@ import React from 'react'
 import {SimpleNavBar} from '../layouts/SimpleNavBar/SimpleNavBar';
 import {NavbarResponsive} from '../layouts/NavbarResponsive/NavbarResponsive.jsx';
 import { MaterialNavBar } from '../layouts/MaterialNavBar/MaterialNavBar';
+import {BasicButton} from "./../layouts/BasicButton/BasicButton"
 export const NavBar = () => {
     return (
         <>
@@ -78,6 +79,7 @@ export const NavBar = () => {
           Catering: {link : "/catering"}
         }}`}
         </ul>
+        <BasicButton value="bsic" type="primary" />
         </> 
     )
 }
