@@ -7,7 +7,11 @@
 
 ## category
 - cards ()
-- button ()
+- button (primay/secondary/danger/info)
 - navbar ()
 - forms ()
 
+## usage
+  - button : attributes 
+     - type:
+     - value: 
