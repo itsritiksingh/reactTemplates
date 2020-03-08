@@ -17,7 +17,7 @@
      - value: [text you want to enter]
      - style: css style to change default styling
      - ### exmple <Basicbutton[name of button] type="primary" value="primary" style={borderRadius: '10px'}>
-  - Cards (cascadingCards/cascadingPanels/testimonialCards/)
+  - Cards (CascadingCards/CascadingPanels/TestimonialCards/)
     - attributes
       - content: { image: 'link to image'  mainHeading: '',subHeading: '',text: '',links: {'twitter':'','facebook':''} }//user can change link name 
        or order or add new links just add correspondin icon to it 
