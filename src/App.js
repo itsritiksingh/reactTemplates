@@ -7,6 +7,12 @@ function App() {
       <Route path="/" exact render={()=>{
        return <ul>
           <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
+          <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
+          <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
+          <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
+          <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
+          <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
+          <li><Link to="/navbar" style={{color: 'black'}} >Navbar</Link></li>
         </ul>
       }}/>
       <Route path="/navbar" exact component={NavBar} />
