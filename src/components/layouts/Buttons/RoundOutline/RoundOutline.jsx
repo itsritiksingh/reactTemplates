@@ -1,10 +1,10 @@
 import React from 'react'
 import './RoundOutline.css'
 
-export function RoundOutline({value,type,text}) {
+export function RoundOutline({value,type}) {
     return (
         <>
-            <button className={`${value} ${type}`}>{text}</button>   
+            <button className={`r-out ${type}`}>{value}</button>   
         </>
     )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import './RoundButtons.css'
 
-export function RoundButtons({value,type,text}) {
+export function RoundButtons({value,type,style}) {
     return (
         <>
-            <button className={`${value} ${type}`}>{text}</button>
+            <button className={`round ${type}`} style={style} >{value}</button>
         </>
     )
 }

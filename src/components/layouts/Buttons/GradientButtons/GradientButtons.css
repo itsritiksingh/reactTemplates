@@ -15,7 +15,7 @@
 }
 
 .orange{
-    background: linear-gradient(90deg, rgba(131,58,180,1) 1%, rgba(253,29,29,1) 51%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(139deg, rgba(131,58,180,1) 1%, rgba(253,29,29,1) 51%, rgba(252,176,69,1) 100%);
 }
 
 .green{
@@ -23,5 +23,5 @@
 }
 
 .red{
-    background-image: radial-gradient( circle 371px at 2.9% 14.3%,  rgba(255,0,102,1) 0%, rgba(80,5,35,1) 100.7% );
+    background-image: linear-gradient( 139deg,  rgba(255,0,102,1) 0%, rgba(80,5,35,1) 100.7% );
 }

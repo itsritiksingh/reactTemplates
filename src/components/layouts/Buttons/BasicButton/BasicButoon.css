@@ -10,30 +10,30 @@
     border: none;
 }
 
-.basic-primary{
+.basic.primary{
     background-color: #4387f4;
 }
 
-.basic-danger{
+.basic.danger{
     background-color: #ff3344;
 }
 
-.basic-warning{
+.basic.warning{
     background-color:#ffbb33;
 }
 
-.basic-info{
+.basic.info{
     background-color: #34b5e5;
 }
 
-.basic-secondary{
+.basic.secondary{
     background-color: #aa66cc;
 }
 
-.basic-success{
+.basic.success{
     background-color: #00c750;
 }
 
-.basic-default{
+.basic.default{
     background-color: #2abbad;
 }

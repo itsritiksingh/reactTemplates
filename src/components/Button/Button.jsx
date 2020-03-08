@@ -14,62 +14,62 @@ export function Button() {
                 <div className="container">
                     <h1>Basic Buttons</h1>
                     <div className="wraper">
-                        <BasicButton value="basic" type="basic-primary" text="primary"/>
-                        <BasicButton value="basic" type="basic-danger" text="danger"/>
-                        <BasicButton value="basic" type="basic-info" text="info"/>
-                        <BasicButton value="basic" type="basic-default" text="default"/>
-                        <BasicButton value="basic" type="basic-success" text="success"/>
-                        <BasicButton value="basic" type="basic-secondary" text="secondary"/>
-                        <BasicButton value="basic" type="basic-warning" text="warning"/>
+                        <BasicButton type="primary" value="primary"/>
+                        <BasicButton type="danger" value="danger"/>
+                        <BasicButton type="info" value="info"/>
+                        <BasicButton type="default" value="default"/>
+                        <BasicButton type="success" value="success"/>
+                        <BasicButton type="secondary" value="secondary"/>
+                        <BasicButton type="warning" value="warning"/>
                     </div>
                 </div>
 
                 <div className="container">
                     <h1>Gradient Buttons</h1>
                     <div className="wraper">
-                        <GradientButtons value="gradient" type="blue"/>
-                        <GradientButtons value="gradient" type="orange"/>
-                        <GradientButtons value="gradient" type="red"/>
-                        <GradientButtons value="gradient" type="green"/>
+                        <GradientButtons value="gradient" color="blue" />
+                        <GradientButtons value="gradient" color="orange"/>
+                        <GradientButtons value="gradient" color="red"/>
+                        <GradientButtons value="gradient" color="green"/>
                     </div>
                 </div>
 
                 <div className="container">
                     <h1>Outline Buttons</h1>
                     <div className="wraper">
-                        <OutlineButtons value="outline" type="outline-primary"text="primary"/>
-                        <OutlineButtons value="outline" type="outline-danger"text="danger"/>
-                        <OutlineButtons value="outline" type="outline-info"text="info"/>
-                        <OutlineButtons value="outline" type="outline-default"text="default"/>
-                        <OutlineButtons value="outline" type="outline-success"text="success"/>
-                        <OutlineButtons value="outline" type="outline-secondary"text="secondary"/>
-                        <OutlineButtons value="outline" type="outline-warning"text="warning"/>
+                        <OutlineButtons type="primary" value="primary"/>
+                        <OutlineButtons type="danger"value="danger"/>
+                        <OutlineButtons type="info"value="info"/>
+                        <OutlineButtons type="default"value="default"/>
+                        <OutlineButtons type="success"value="success"/>
+                        <OutlineButtons type="secondary"value="secondary"/>
+                        <OutlineButtons type="warning"value="warning"/>
                     </div>
                 </div>
 
                 <div className="container">
                     <h1>Round Buttons</h1>
                     <div className="wraper">
-                        <RoundButtons value="round" type="round-primary" text="primary"/>
-                        <RoundButtons value="round" type="round-danger" text="danger"/>
-                        <RoundButtons value="round" type="round-info" text="info"/>
-                        <RoundButtons value="round" type="round-default" text="default"/>
-                        <RoundButtons value="round" type="round-success" text="success"/>
-                        <RoundButtons value="round" type="round-secondary" text="secondary"/>
-                        <RoundButtons value="round" type="round-warning" text="warning"/>
+                        <RoundButtons type="primary" value="primary"/>
+                        <RoundButtons type="danger" value="danger"/>
+                        <RoundButtons type="info" value="info"/>
+                        <RoundButtons type="default" value="default"/>
+                        <RoundButtons type="success" value="success"/>
+                        <RoundButtons type="secondary" value="secondary"/>
+                        <RoundButtons type="warning" value="warning"/>
                     </div>
                 </div>
 
                 <div className="container">
                     <h1>Round Outline Buttons</h1>
                     <div className="wraper">
-                        <RoundOutline value="r-out" type="r-out-primary" text="primary"/>
-                        <RoundOutline value="r-out" type="r-out-danger" text="danger"/>
-                        <RoundOutline value="r-out" type="r-out-info" text="info"/>
-                        <RoundOutline value="r-out" type="r-out-default" text="default"/>
-                        <RoundOutline value="r-out" type="r-out-success" text="success"/>
-                        <RoundOutline value="r-out" type="r-out-secondary" text="secondary"/>
-                        <RoundOutline value="r-out" type="r-out-warning" text="warning"/>
+                        <RoundOutline type="primary" value="primary"/>
+                        <RoundOutline type="danger" value="danger"/>
+                        <RoundOutline type="info" value="info"/>
+                        <RoundOutline type="default" value="default"/>
+                        <RoundOutline type="success" value="success"/>
+                        <RoundOutline type="secondary" value="secondary"/>
+                        <RoundOutline type="warning" value="warning"/>
                     </div>
                 </div>
             </div>
