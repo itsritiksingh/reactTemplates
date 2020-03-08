@@ -1,0 +1,47 @@
+.outline{
+    padding: 13px 34px;
+    margin: 6px;
+    font-size: 13px;
+    background-color: hsl(0,0%,100%);;
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-radius: 2px;
+    border-style: solid;
+    box-shadow:hsla(0, 0%, 0%, 0.16) 0px 2px 5px 0px;
+}
+
+.outline-primary{
+    color: #4387f4;
+    border-color: #4387f4;
+}
+
+.outline-danger{
+    color: #ff3344;
+    border-color: #ff3344;
+}
+
+.outline-warning{
+    color: #ffbb33;
+    border-color: #ffbb33;
+}
+
+.outline-info{
+    color: #34b5e5;
+    border-color: #34b5e5;
+}
+
+.outline-secondary{
+    color: #aa66cc;
+    border-color:#aa66cc;
+}
+
+.outline-success{
+    color: #00c750;
+    border-color: #00c750;
+}
+
+.outline-default{
+    color: #2abbad;
+    border-color: #2abbad;
+}
