@@ -21,4 +21,3 @@
     - attributes
       - content: { image: 'link to image'  mainHeading: '',subHeading: '',text: '',links: {'twitter':'','facebook':''} }//user can change link name 
        or order or add new links just add correspondin icon to it 
-    

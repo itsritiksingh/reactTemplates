@@ -1,0 +1,27 @@
+.gradient{
+    padding: 13px 34px;
+    margin: 6px;
+    color: hsl(0,0%,100%);
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow:hsla(0, 0%, 0%, 0.17) 0px 2.33787px 5.67574px 0px;
+    border: none;
+    border-radius: 100px;
+}
+
+.blue{
+    background: linear-gradient(139deg, rgba(9,34,121,1) 0%, rgba(0,207,255,1) 100%);
+}
+
+.orange{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 1%, rgba(253,29,29,1) 51%, rgba(252,176,69,1) 100%);
+}
+
+.green{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.red{
+    background-image: radial-gradient( circle 371px at 2.9% 14.3%,  rgba(255,0,102,1) 0%, rgba(80,5,35,1) 100.7% );
+}
