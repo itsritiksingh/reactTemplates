@@ -26,8 +26,8 @@ Does it make it our learning path easier No .
     - content: { image: 'link to image' mainHeading: '',subHeading: '',text: '',links: {'twitter':'','facebook':''} }//user can change link name
       or order or add new links just add corresponding icon to it
 - Grid
-  -attributes
-   -type : .col-3,
+  - attributes
+   - type : .col-3,
           .col-sm-3,
           .col-md-3,
           .col-lg-3,

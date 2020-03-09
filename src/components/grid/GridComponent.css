@@ -1,4 +1,4 @@
-.container,.row {
+.GridComponent,.GridComponent .row {
   width:100%;
   margin: 0px; /* not necessary  */
 }

@@ -5,7 +5,7 @@ import {CascadingCard} from '../layouts/Cards/CascadingCard/CascadingCard'
 export const Cards = () => {
     return (
         <>
-           <div className="main">
+           <div className="Cards">
                 <div className="container">
                     <h1>Cascading Card</h1>   
                     <div className="row">

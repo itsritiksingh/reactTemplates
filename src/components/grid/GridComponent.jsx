@@ -4,7 +4,7 @@ import { Grid } from "../layouts/grid/Grid";
 export const GridComponent = () => {
   return (
     <>
-      <div className="container">
+      <div className=".GridComponent">
         <div className="row">
           <Grid type="col-sm-2">
             <p>
@@ -24,7 +24,7 @@ export const GridComponent = () => {
           </Grid>
         </div>
       </div>
-      <div className="container">
+      <div className="GridComponent">
         <div className="row">
           <Grid type="col-md-2">
             <p>
@@ -44,7 +44,7 @@ export const GridComponent = () => {
           </Grid>
         </div>
       </div>
-      <div className="container">
+      <div className="GridComponent">
         <div className="row">
           <Grid type="col-xl-2">
             <p>
@@ -64,7 +64,7 @@ export const GridComponent = () => {
           </Grid>
         </div>
       </div>
-      <div className="container">
+      <div className="GridComponent">
         <div className="row">
           <Grid type="col-lg-2">
             <p>
