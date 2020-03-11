@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
 import './forms.css';
 import {Input} from '../layouts/Inputs/Input';
