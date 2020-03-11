@@ -1,9 +1,9 @@
 import React from 'react'
 import './OutlineButtons.css'
-export function OutlineButtons({value,type,style}) {
+export function OutlineButtons({value,type,style,...rest}) {
     return (
         <>
-            <button className={`outline ${type}`} style={style}>{value}</button>
+            <button {...rest} className={`outline ${type}`} style={style}>{value}</button>
         </>
     )
 }

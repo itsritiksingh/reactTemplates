@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AlertComponent } from "../layouts/AlertComponent/AlertComponent";
-
+import {RoundOutline} from '../layouts/Buttons/RoundOutline/RoundOutline';
 export function Alert() {
+  const [alert, setAlert] = useState(false);
+
+  useEffect(() => {
+    document.getElementById("button").addEventListener("click", () => {
+      setAlert(true);
+      setTimeout(() => setAlert(false),1000);
+    });
+  }, []);
+
   return (
     <>
-      <div className="main">
-        <div className="container">
+      {alert ? (
+        <div className="container" style={{transition: 'all ease 500s'  }}>
           <h1>Simple Alert</h1>
           <AlertComponent color="alert-primary">
             <div>
@@ -43,17 +52,8 @@ export function Alert() {
             </div>
           </AlertComponent>
         </div>
-
-        <div className="container">
-          <h1>Additional Content</h1>
-          <AlertComponent color="alert-dark">
-            <div>
-              <h4>This is alert with additional content</h4>
-              <p>This box contains the content of alert.</p>
-            </div>
-          </AlertComponent>
-        </div>
-      </div>
+      ) : null}
+      <RoundOutline type="primary" value="Show ALL Alerts" id="button"/>
     </>
   );
 }

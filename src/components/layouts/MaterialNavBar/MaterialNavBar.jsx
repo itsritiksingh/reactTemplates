@@ -1,19 +1,28 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./MaterialNavBar.css";
 import { Link } from "react-router-dom";
 export const MaterialNavBar = ({ link }) => {
-
   useEffect(() => {
-    const dropdownLink = document.querySelector('li.dropdownLink');
-    dropdownLink.addEventListener('click',(e)=>{
+    const dropdownLink = document.querySelector("nav.MaterialNavBar li.dropdownLink");
+    const menu = document.querySelector("nav.MaterialNavBar li.menu");
+
+    dropdownLink.addEventListener("click", e => {
       e.preventDefault();
-      dropdownLink.lastElementChild.classList.toggle('active')
-    })
+      dropdownLink.lastElementChild.classList.toggle("active");
+    });
+
+    menu.addEventListener("click", () => {
+      console.log("logged");
+      document
+        .querySelector("nav.MaterialNavBar ul")
+        .classList.toggle("toggle");
+    });
 
     return () => {
-      dropdownLink.removeEventListener('click',()=>{})
+      dropdownLink.removeEventListener("click", () => {});
+      menu.removeEventListener("click", () => {});
     };
-  }, [])
+  }, []);
 
   return (
     <>
@@ -21,7 +30,8 @@ export const MaterialNavBar = ({ link }) => {
         <ul>
           {Object.keys(link).map((val, index) => {
             return (
-              <li key={index}
+              <li
+                key={index}
                 className={
                   index === 0
                     ? "logo"
@@ -43,9 +53,11 @@ export const MaterialNavBar = ({ link }) => {
               </li>
             );
           })}
+          <li className="form">
           <form action="">
             <input type="text" name="search" placeholder="Search" />
           </form>
+          </li>
           <li className="menu"> &#x2630;</li>
         </ul>
       </nav>

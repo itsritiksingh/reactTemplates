@@ -42,7 +42,7 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link to='/alert' style={{color: "black"}}>
+                <Link to="/alert" style={{ color: "black" }}>
                   Alert
                 </Link>
               </li>

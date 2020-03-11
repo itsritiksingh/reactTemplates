@@ -11,6 +11,7 @@
     border-radius: 4px;
     border-color: rgb(184, 218, 255);
     border-style: solid;
+    transition: all ease-in-out 10s;
 }
 
 .alert-primary{

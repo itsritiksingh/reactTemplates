@@ -1,11 +1,11 @@
 import React from "react";
 import "./GradientButtons.css";
 
-export function GradientButtons({ value, color, style }) {
+export function GradientButtons({ value, color, style,...rest }) {
  
   return (
     <>
-      <button className={`gradient ${color}`} style={style}>{value}</button>
+      <button {...rest} className={`gradient ${color}`} style={style}>{value}</button>
     </>
   );
 }
