@@ -1,0 +1,52 @@
+.alert{
+    width: 90%;
+    margin: 16px auto;
+    padding: 10px 20px;
+    color: rgb(0, 64, 133);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    background-color: rgb(204, 229, 255);
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(184, 218, 255);
+    border-style: solid;
+}
+
+.alert-primary{
+    color: rgb(0, 64, 133);
+    background-color: rgb(204, 229, 255);
+    border-color: rgb(184, 218, 255);
+}
+.alert-danger{
+    color: rgb(115, 28, 37);
+    background-color: rgb(248, 216, 219);
+    border-color: rgb(245, 199, 203);
+}
+.alert-info{
+    color: rgb(12, 83, 95);
+    background-color: rgb(208, 236, 241);
+    border-color: rgb(189, 228, 235);
+}
+.alert-success{
+    color: rgb(21, 86, 36);
+    background-color: rgb(212, 237, 218);
+    border-color: rgb(194, 229, 202);
+}
+.alert-warning{
+    color: rgb(134, 101, 4);
+    background-color: rgb(255, 243, 204);
+    border-color: rgb(255, 237, 184)
+    ;
+}
+.alert-light{
+    color: rgb(130, 130, 130);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(252, 252, 253)
+    ;
+}
+.alert-dark{
+    color: rgb(28, 31, 34);
+    background-color: rgb(215, 217, 218);
+    border-color: rgb(197, 199, 201);
+}
