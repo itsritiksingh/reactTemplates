@@ -7,15 +7,20 @@ export const HeaderWithRightNav = ({ link }) => {
     document
       .querySelector("header.HeaderWithRightNav .menu")
       .addEventListener("click", () => {
-        document
+        var nav = document
           .querySelector("header.HeaderWithRightNav nav")
-          .classList.toggle("active");
+        nav.classList.toggle("active");
+        // var menu = document.querySelector("header.HeaderWithRightNav .menu");
+        document.querySelector("header.HeaderWithRightNav .menu").innerHTML = nav.classList.contains('active') ? '&times;': '&#x2630;';
+      //  if(nav.classList.contains('active')){
+      //    menu.innerHTML = '&times;';
+      //  }
       });
   }, []);
   return (
     <>
       <header className="HeaderWithRightNav">
-        <div className="menu">&#x2630;</div>
+        <div className="menu">&times;</div>
         <nav>
           {Object.keys(link).map((val, index, arr) => {
             return (
