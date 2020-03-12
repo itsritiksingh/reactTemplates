@@ -6,6 +6,7 @@ import { GridComponent } from "./components/grid/GridComponent";
 import { Cards } from "./components/cards/Cards";
 import { forms } from "./components/forms/forms";
 import { Alert } from "./components/alert/Alert";
+import { Headers } from "./components/Headers/Headers";
 
 function App() {
   return (
@@ -46,6 +47,11 @@ function App() {
                   Alert
                 </Link>
               </li>
+              <li>
+                <Link to="/headers" style={{ color: "black" }}>
+                  Headers
+                </Link>
+              </li>
             </ul>
           );
         }}
@@ -56,6 +62,7 @@ function App() {
       <Route path="/card" exact component={Cards} />
       <Route path="/forms" exact component={forms} />
       <Route path="/alert" exact component={Alert} />
+      <Route path="/headers" exact component={Headers} />
     </Router>
   );
 }
