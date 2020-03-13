@@ -5,7 +5,7 @@ export const Grid = ({type,children,style}) => {
     
     return (
         <div className={type} style={style}>
-            <Typography>
+            <Typography className="p my-5" align="right">
                 {children}
             </Typography>
         </div>
