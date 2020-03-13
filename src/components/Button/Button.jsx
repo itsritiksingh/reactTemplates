@@ -1,9 +1,9 @@
 import React from 'react'
-import {BasicButton} from '../layouts/Buttons/BasicButton/BasicButton'
-import {GradientButtons} from '../layouts/Buttons/GradientButtons/GradientButtons'
-import {OutlineButtons} from '../layouts/Buttons/OutlineButtons/OutlineButtons'
-import {RoundButtons} from '../layouts/Buttons/RoundButtons/RoundButtons'
-import {RoundOutline} from '../layouts/Buttons/RoundOutline/RoundOutline'
+import {BasicButton} from '../layouts/BasicButton/BasicButton'
+import {GradientButtons} from '../layouts/GradientButtons/GradientButtons'
+import {OutlineButtons} from '../layouts/OutlineButtons/OutlineButtons'
+import {RoundButtons} from '../layouts/RoundButtons/RoundButtons'
+import {RoundOutline} from '../layouts/RoundOutline/RoundOutline'
 
 import './Button.css'
 

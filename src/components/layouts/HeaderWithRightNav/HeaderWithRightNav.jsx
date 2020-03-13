@@ -31,7 +31,6 @@ export const HeaderWithRightNav = ({ link }) => {
           })}
         </nav>
       </header>
-      <header className="HeaderWithRightNav"></header>
     </>
   );
 };
