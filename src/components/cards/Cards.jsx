@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import { Grid } from "../layouts/grid/Grid";
-import { CascadingCard } from "../layouts/Cards/CascadingCard/CascadingCard";
+import { CascadingCard } from "../layouts/CascadingCard/CascadingCard";
 import { TestimonialCard } from "../layouts/Cards/Testimonial Card/TestimonialCard";
 
 export const Cards = () => {
