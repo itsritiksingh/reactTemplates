@@ -1,0 +1,45 @@
+.test-container {
+  width: 22rem;
+  
+  background: #fff;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 23px -7px rgba(0,0,0,0.71);
+  transition: box-shadow 400ms;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.test-container:hover {
+    box-shadow: 0px 0px 23px -10px rgba(0,0,0,0.71);
+}
+
+.test-header {
+  height: 10rem;
+  background: linear-gradient(
+    139deg,
+    rgba(9, 34, 121, 1) 0%,
+    rgba(0, 207, 255, 1) 100%
+  );
+  background-position: cover;
+}
+
+.test-avatar {
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  margin-top: -4rem;
+  border: 0.5rem solid #fff;
+  z-index: 100;
+}
+
+.test-body {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+.test-body h1{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
