@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AlertComponent } from "../layouts/AlertComponent/AlertComponent";
-import {RoundOutline} from '../layouts/Buttons/RoundOutline/RoundOutline';
+import {RoundOutline} from '../layouts/RoundOutline/RoundOutline';
+import {Container} from '../layouts/containers/Container'
 export function Alert() {
   const [alert, setAlert] = useState(false);
 
@@ -14,7 +15,8 @@ export function Alert() {
   return (
     <>
       {alert ? (
-        <div className="container" style={{transition: 'all ease 500s'  }}>
+        // <div className="container">
+        <Container padding="1">
           <h1>Simple Alert</h1>
           <AlertComponent color="alert-primary">
             <div>
@@ -51,7 +53,8 @@ export function Alert() {
               <p>This is Dark alert</p>
             </div>
           </AlertComponent>
-        </div>
+        {/* // </div> */}
+        </Container>
       ) : null}
       <RoundOutline type="primary" value="Show ALL Alerts" id="button"/>
     </>
