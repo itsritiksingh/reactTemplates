@@ -17,10 +17,10 @@
 {
 box-sizing: border-box;
 float: left;
+position: relative;
 }
 .col-1,.col-sm-1,.col-md-1,.col-lg-1 {
   width: 100%;
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;

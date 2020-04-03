@@ -1,9 +1,9 @@
 import React from 'react'
 import './Container.css';
-export const Container = ({style,children,padding = 7.5}) => {
+export const Container = ({style,children}) => {
 
     return (
-        <div className="_container" style={{...style,...{padding: padding+'rem'}}}>
+        <div className="_container" style={{...style}}>
             {children}
         </div>
     )
