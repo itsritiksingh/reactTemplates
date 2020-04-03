@@ -1,0 +1,80 @@
+nav.AppBar {
+  width: 100%;
+  position: relative;
+  transition: all 2s ease-in;
+  height: 5vh;
+  background-color: blueviolet;
+  height: auto;
+  padding: 15px 25px;
+  box-sizing: border-box;
+}
+
+nav.AppBar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav.AppBar ul.active {
+  display: block;
+  padding: 4px 8px;
+}
+
+nav.AppBar ul.active li a {
+  color: black;
+}
+
+nav.AppBar li {
+  /* margin: 5px 10px; */
+  flex: 0.3;
+}
+
+nav.AppBar li.logo {
+  flex: 2;
+  text-align: center;
+}
+nav.AppBar li.menu {
+  display: none;
+  color:white;
+  font-size: 22px;
+}
+
+nav.AppBar ul li > ul {
+  position: absolute;
+  display: none;
+  background-color: white;
+  width: 75px;
+}
+
+nav.AppBar ul > li {
+  color: black;
+  display: block;
+  margin: 4px;
+  padding: 4px;
+}
+
+nav.AppBar li ul > *:hover {
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 720px) {
+  nav.AppBar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav.AppBar ul.toggle li:not(.menu):not(.logo) {
+    display: block;
+  }
+  nav.AppBar li.menu {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    margin: 15px;
+  }
+  nav.AppBar ul li:not(.logo):not(.menu) {
+    display: none;
+  }
+}

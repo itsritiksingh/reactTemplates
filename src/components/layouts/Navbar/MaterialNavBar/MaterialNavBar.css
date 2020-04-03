@@ -1,0 +1,79 @@
+nav.MaterialNavBar {
+  width: 100%;
+  position: relative;
+  transition: all 2s ease-in ;
+  height: 5vh;
+  background-color: blueviolet;
+  height: auto;
+  padding: 15px 25px;
+  box-sizing: border-box;
+}
+
+nav.MaterialNavBar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+}
+nav.MaterialNavBar li {
+  margin: 5px 10px;
+}
+nav.MaterialNavBar li.menu {
+  display: none;
+  font-size: 22px;
+}
+nav.MaterialNavBar li.form {
+  flex: 1;
+  text-align: right;
+}
+nav.MaterialNavBar .dropdown {
+  position: absolute;
+  display: none;
+  background-color: white;
+  width: 75px;
+}
+nav.MaterialNavBar ul .active {
+  display: block;
+}
+nav.MaterialNavBar ul .dropdown > * {
+  color: black;
+  display: block;
+  margin: 4px;
+  padding: 4px;
+}
+nav.MaterialNavBar ul .dropdown > *:hover {
+  background-color: blueviolet;
+}
+nav.MaterialNavBar form input {
+  padding: 5px;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: blueviolet;
+}
+nav.MaterialNavBar form input::placeholder {
+  color: white;
+}
+@media screen and (max-width: 720px) {
+  nav.MaterialNavBar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav.MaterialNavBar ul.toggle li:not(.menu):not(.logo){
+  display: block;
+  }
+  nav.MaterialNavBar li.menu {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    margin: 15px;
+  }
+
+  nav.MaterialNavBar ul li:not(.logo):not(.menu){
+    display: none;
+  }
+}

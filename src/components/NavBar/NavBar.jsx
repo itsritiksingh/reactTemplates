@@ -1,9 +1,9 @@
 import React from 'react'
 import {SimpleNavBar} from '../layouts/SimpleNavBar/SimpleNavBar';
-import {NavbarResponsive} from '../layouts/NavbarResponsive/NavbarResponsive.jsx';
-import { MaterialNavBar } from '../layouts/MaterialNavBar/MaterialNavBar';
-
-export const NavBar = () => {
+import {NavbarResponsive} from '../layouts/Navbar/NavbarResponsive/NavbarResponsive.jsx';
+import { MaterialNavBar } from '../layouts/Navbar/MaterialNavBar/MaterialNavBar';
+import {AppBar} from '../layouts/Navbar/AppBar/AppBar'
+ export const NavBar = () => {
     return (
         <>
         <p>SimpleNavBar</p>
@@ -30,7 +30,9 @@ export const NavBar = () => {
           "Banquet facility": { link: "/banquet" },
           Gallery: {link: "/gallery"},
           Catering: {link : "/catering"}
-        }}/> 
+        }}
+        style={{padding: '0 40px'}}
+        /> 
             <br />
          <hr />
          <br />
@@ -80,6 +82,37 @@ export const NavBar = () => {
         }}`}
         </ul>
         
+        <AppBar >
+        <li className="logo">
+          <a href="/">LOGO</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li className="dropDownLink">
+          <a href="/">drop</a> 
+          <ul>
+            <li>
+              <a href="/">second</a>
+            </li>
+            <li>
+              <a href="/">second</a>
+            </li>
+            <li>
+              <a href="/">second</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        </AppBar>
         </> 
     )
 }
