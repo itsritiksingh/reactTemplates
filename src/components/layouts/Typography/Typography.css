@@ -44,3 +44,6 @@ small,.small {
   font-size: 80%;
   font-weight: 400;
 }
+* {
+  line-height: 1.5em;
+}

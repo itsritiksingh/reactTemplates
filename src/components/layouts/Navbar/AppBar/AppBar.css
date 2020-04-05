@@ -33,7 +33,8 @@ nav.AppBar li {
 
 nav.AppBar li.logo {
   flex: 2;
-  text-align: center;
+  padding-left: 10%;
+  text-align: justify;
 }
 nav.AppBar li.menu {
   display: none;

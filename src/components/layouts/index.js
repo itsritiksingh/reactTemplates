@@ -10,9 +10,13 @@ import { OutlineButtons } from "./OutlineButtons/OutlineButtons";
 import { RoundButtons } from "./RoundButtons/RoundButtons";
 import { RoundOutline } from "./RoundOutline/RoundOutline";
 import { SimpleNavBar } from "./SimpleNavBar/SimpleNavBar";
+import { Header } from "./Headers/Header";
 import { Grid } from "./grid/Grid";
-import { Container} from './containers/Container'
+import { Container} from './Miscellenous/containers/Container'
 import {Typography} from './Typography/Typography';
+import { HoverCard } from "./Cards/HoverCard/HoverCard";
+import { Spacer } from './Miscellenous/Spacer/Spacer'
+import { Line } from "./Miscellenous/Line";
 
 export {
   AlertComponent,
@@ -29,5 +33,9 @@ export {
   SimpleNavBar,
   Grid,
   Container,
-  Typography
+  Typography,
+  Header,
+  HoverCard,
+  Spacer,
+  Line
 };

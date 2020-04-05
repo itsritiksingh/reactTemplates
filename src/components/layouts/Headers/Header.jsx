@@ -1,10 +1,16 @@
-import React from 'react'
-import './Header.css'
+import React from "react";
+import "./Header.css";
 
-export const Header = ({height,children,style,background}) => {
-    return (
-        <header style={{height: height,backgroundImage: `url(${background})`,...style}}>
-            {children}
-        </header>
-    )
-}
+export const Header = ({ height, children, style, backgroundImage }) => {
+  return (
+    <header
+      style={{
+          height: height,
+          backgroundImage,
+        ...style,
+      }}
+    >
+      {children}
+    </header>
+  );
+};

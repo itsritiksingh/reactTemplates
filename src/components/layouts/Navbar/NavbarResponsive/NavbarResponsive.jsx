@@ -1,23 +1,31 @@
 import React, { useEffect } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
-export const NavbarResponsive = ({ link,style }) => {
+
+export const NavbarResponsive = ({ children,style }) => {
+  
   useEffect(() => {
     const toggleActive = e => {
+
       var li = document.querySelectorAll("nav ul li a");
+
       li.forEach(li => {
         if (li.classList.contains("active")) li.classList.remove("active");
       });
+
       if (!e.target.classList.contains("logo"))
        e.target.classList.add('active');
     };
+
     var nav_ul = document.querySelector("nav.NavbarResponsive ul");
     var li_menu = document.querySelector("nav.NavbarResponsive ul li.menu");
+
     li_menu.addEventListener('click',()=>{
-        document.querySelectorAll('nav.NavbarResponsive ul li.item').forEach(val=> val.classList.toggle('drop'));
+        document.querySelector('nav.NavbarResponsive ul').classList.toggle('drop');
     });
+
     nav_ul.addEventListener("mouseover", toggleActive);
     nav_ul.addEventListener("click", toggleActive);
+
     return () => {
       nav_ul.removeEventListener("mouseover", () => {});
       nav_ul.removeEventListener("click", () => {});
@@ -34,7 +42,7 @@ export const NavbarResponsive = ({ link,style }) => {
     <nav className="NavbarResponsive" style={style}>
       <ul>
         <li className="menu"> &#x2630;</li>
-        {Object.keys(link).map((val, index, arr) => {
+        {/* {Object.keys(link).map((val, index, arr) => {
           return (
             <li
               className={
@@ -50,7 +58,9 @@ export const NavbarResponsive = ({ link,style }) => {
               <Link to={link[val].link}>{val}</Link>
             </li>
           );
-        })}
+        })} */}
+
+        {children}
       </ul>
     </nav>
   );

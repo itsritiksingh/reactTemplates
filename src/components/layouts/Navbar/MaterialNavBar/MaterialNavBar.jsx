@@ -12,7 +12,6 @@ export const MaterialNavBar = ({ link }) => {
     });
 
     menu.addEventListener("click", () => {
-      console.log("logged");
       document
         .querySelector("nav.MaterialNavBar ul")
         .classList.toggle("toggle");

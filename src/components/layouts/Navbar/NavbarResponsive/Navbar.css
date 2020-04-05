@@ -1,9 +1,9 @@
 nav.NavbarResponsive {
   width: 100%;
+  position: relative;
   height: 5vh;
   background-color: black;
   height: auto;
-  padding: 15px 25px;
   box-sizing: border-box;
 }
 nav.NavbarResponsive li a.active {
@@ -12,27 +12,29 @@ nav.NavbarResponsive li a.active {
 nav.NavbarResponsive ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: white;
   flex-wrap: wrap;
 }
 nav.NavbarResponsive ul li {
-  margin: 5px 10px;
+  margin: 10px 10px;
+  padding: 8px 16px;
+  width: auto;
+  flex: 0.3;
 }
 nav.NavbarResponsive ul li.menu {
   display: none;
   font-size: 22px;
 }
 nav.NavbarResponsive ul li.logo {
-  text-align: center;
-  flex: 0.5
-  /* order: 1; */
+  text-align: justify;
+  padding-left: 10%;
+  flex: 2;
 }
 nav.NavbarResponsive ul li.button {
   background-color: red;
-  padding: 8px 16px;
-  /* order: 2; */
+  text-align: center;
 }
 a {
   color: white;
@@ -40,17 +42,23 @@ a {
 }
 
 @media screen and (max-width: 968px) {
-  nav.NavbarResponsive ul li.item {
-    width: 100%;
-    text-align: left;
-    order: 3;
-    display: none;    
+  nav.NavbarResponsive ul {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  nav.NavbarResponsive ul.drop li:not(.menu):not(.logo){
+  display: block;
+  margin-left: 85px;
   }
   nav.NavbarResponsive ul li.menu {
+    position: absolute;
     display: block;
+    top: 0;
+    left: 0;
   }
-  nav.NavbarResponsive ul li.drop {
-      display: block;
+
+  nav.NavbarResponsive ul li:not(.logo):not(.menu){
+    display: none;
   }
 }
 @media screen and (max-width: 480px) {

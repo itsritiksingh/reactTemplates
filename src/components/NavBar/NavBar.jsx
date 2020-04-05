@@ -1,62 +1,85 @@
-import React from 'react'
-import {SimpleNavBar} from '../layouts/SimpleNavBar/SimpleNavBar';
-import {NavbarResponsive} from '../layouts/Navbar/NavbarResponsive/NavbarResponsive.jsx';
-import { MaterialNavBar } from '../layouts/Navbar/MaterialNavBar/MaterialNavBar';
-import {AppBar} from '../layouts/Navbar/AppBar/AppBar'
- export const NavBar = () => {
-    return (
-        <>
-        <p>SimpleNavBar</p>
-           <SimpleNavBar link={{
-          logo: {link: "/"},
-          Home: { link: "/" },
-          "About Us": { link: "/aboutus" },
-          Menu: { link: "/menu" },
-          "Banquet facility": { link: "/banquet" },
-          photos: {link: "/gallery"},
-          Catering: {link : "/catering"}
-        }}/> 
+import React from "react";
+import { SimpleNavBar } from "../layouts/SimpleNavBar/SimpleNavBar";
+import { NavbarResponsive } from "../layouts/Navbar/NavbarResponsive/NavbarResponsive.jsx";
+import { MaterialNavBar } from "../layouts/Navbar/MaterialNavBar/MaterialNavBar";
+import { AppBar } from "../layouts/Navbar/AppBar/AppBar";
+export const NavBar = () => {
+  return (
+    <>
+      <p>SimpleNavBar</p>
+      <SimpleNavBar>
+        <li className="logo">
+          <a href="/">LOGO</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li className="button">
+          <a href="/">Button</a>
+        </li>
+      </SimpleNavBar>
 
-         <br />
-         <hr />
-         <br />
-         <form action=""></form>
- <p>NavbarResponsive</p>
-<NavbarResponsive link={{
-          logo: {link: "/"},
-          Home: { link: "/" },
-          "About Us": { link: "/aboutus" },
-          Menu: { link: "/menu" },
-          "Banquet facility": { link: "/banquet" },
-          Gallery: {link: "/gallery"},
-          Catering: {link : "/catering"}
-        }}
-        style={{padding: '0 40px'}}
-        /> 
-            <br />
-         <hr />
-         <br />
-         <p>MaterialNavBar</p>
-        <MaterialNavBar
+      <br />
+      <hr />
+      <br />
+
+      <p>NavbarResponsive</p>
+      <NavbarResponsive style={{ padding: "0 40px" }}>
+        <li className="logo">
+          <a href="/">LOGO</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li>
+          <a href="/">first</a>
+        </li>
+        <li className="button">
+          <a href="/">Button</a>
+        </li>
+      </NavbarResponsive>
+
+      <br />
+      <hr />
+      <br />
+      <p>MaterialNavBar</p>
+      <MaterialNavBar
         link={{
-          logo: {link: "/"},
+          logo: { link: "/" },
           Home: { link: "/" },
           "About Us": { link: "/aboutus" },
           Menu: { link: "/menu" },
-          Dropdown: {link : "/catering", child: {
-            Link1: "/",
-            Link2: "/",
-            Link3: "/"
-          }}
+          Dropdown: {
+            link: "/catering",
+            child: {
+              Link1: "/",
+              Link2: "/",
+              Link3: "/",
+            },
+          },
         }}
-        />
-        <p> Uncompleted</p>
-        <ul>
+      />
+      <p> Uncompleted</p>
+      <ul>
+        <li>
+          Usage : {"<nameOfNavbar link/>"}
           <li>
-            Usage : {'<nameOfNavbar link/>'}
-             <li> link = object if link text and link address and may contain a child in case of dropdown</li>
+            {" "}
+            link = object if link text and link address and may contain a child
+            in case of dropdown
           </li>
-          example: {`link={{
+        </li>
+        example:{" "}
+        {`link={{
           logo: {link: "/"},
           Home: { link: "/" },
           "About Us": { link: "/aboutus" },
@@ -68,10 +91,11 @@ import {AppBar} from '../layouts/Navbar/AppBar/AppBar'
           }}
         }}
         `}
-        <br/>
-        or 
-        <br/>
-        link : {`link={{
+        <br />
+        or
+        <br />
+        link :{" "}
+        {`link={{
           logo: {link: "/"},
           Home: { link: "/" },
           "About Us": { link: "/aboutus" },
@@ -80,9 +104,9 @@ import {AppBar} from '../layouts/Navbar/AppBar/AppBar'
           Gallery: {link: "/gallery"},
           Catering: {link : "/catering"}
         }}`}
-        </ul>
-        
-        <AppBar >
+      </ul>
+
+      <AppBar>
         <li className="logo">
           <a href="/">LOGO</a>
         </li>
@@ -96,7 +120,7 @@ import {AppBar} from '../layouts/Navbar/AppBar/AppBar'
           <a href="/">first</a>
         </li>
         <li className="dropDownLink">
-          <a href="/">drop</a> 
+          <a href="/">drop</a>
           <ul>
             <li>
               <a href="/">second</a>
@@ -112,12 +136,7 @@ import {AppBar} from '../layouts/Navbar/AppBar/AppBar'
         <li>
           <a href="/">first</a>
         </li>
-        </AppBar>
-        </> 
-    )
-}
-
-
-
-
-
+      </AppBar>
+    </>
+  );
+};

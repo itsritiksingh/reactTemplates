@@ -4,7 +4,7 @@ import { Grid } from "../layouts/grid/Grid";
 import { CascadingCard } from "../layouts/CascadingCard/CascadingCard";
 import { TestimonialCard } from "../layouts/Cards/TestimonialCard/TestimonialCard";
 import { HoverCard } from "../layouts/Cards/HoverCard/HoverCard";
-import { Container } from "../layouts/containers/Container";
+import { Container } from "../layouts/Miscellenous/containers/Container";
  
 export const Cards = () => {
   return (
@@ -94,9 +94,23 @@ export const Cards = () => {
           </div>
         </div>
       </div>
-      <Container style={{padding: 0}}>
+
+      <Container style={{padding: 0,display: 'flex',justifyContent: 'center'}}>
       <Grid type="col-sm-3" style={{padding: 0}}>
-        <HoverCard>
+
+        {/* props : expand,shrink,translateUp,translateDown optional: style */}
+        <HoverCard shrink>
+       <h1>Hello</h1>
+       <h4>work</h4>
+       <h5>work</h5>
+       <h6>work</h6>
+      </HoverCard>
+      </Grid>
+
+      <Grid type="col-sm-3" style={{padding: 0}}>
+
+        {/* props : expand,shrink,translateUp,translateDown optional: style */}
+        <HoverCard shrink>
        <h1>Hello</h1>
        <h4>work</h4>
        <h5>work</h5>

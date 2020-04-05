@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AlertComponent } from "../layouts/AlertComponent/AlertComponent";
 import {RoundOutline} from '../layouts/RoundOutline/RoundOutline';
-import {Container} from '../layouts/containers/Container'
+import {Container} from '../layouts/Miscellenous/containers/Container'
 export function Alert() {
   const [alert, setAlert] = useState(false);
 

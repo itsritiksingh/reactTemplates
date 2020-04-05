@@ -14,13 +14,13 @@ export function Button() {
                 <div className="container">
                     <h1>Basic Buttons</h1>
                     <div className="wraper">
-                        <BasicButton type="primary" value="primary"/>
-                        <BasicButton type="danger" value="danger"/>
-                        <BasicButton type="info" value="info"/>
-                        <BasicButton type="default" value="default"/>
-                        <BasicButton type="success" value="success"/>
-                        <BasicButton type="secondary" value="secondary"/>
-                        <BasicButton type="warning" value="warning"/>
+                        <BasicButton type="primary">primary</BasicButton>
+                        <BasicButton type="danger">danger</BasicButton>
+                        <BasicButton type="info">info</BasicButton>
+                        <BasicButton type="default">default</BasicButton>
+                        <BasicButton type="success">success</BasicButton>
+                        <BasicButton type="secondary">secondary</BasicButton>
+                        <BasicButton type="warning">warning</BasicButton>
                     </div>
                 </div>
 

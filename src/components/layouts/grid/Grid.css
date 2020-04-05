@@ -15,23 +15,22 @@
 .col-lg-6,
 .col-xl-6
 {
-box-sizing: border-box;
 float: left;
 position: relative;
 }
-.col-1,.col-sm-1,.col-md-1,.col-lg-1 {
+/* .col-1,.col-sm-1,.col-md-1,.col-lg-1 {
   width: 100%;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-}
+} */
 .col-3,
 .col-sm-3,
 .col-md-3,
 .col-lg-3,
 .col-xl-3 {
     padding: 0 15px;
-    width: 33.3%;
+    width: 25%;
   }
   .col-2,
   .col-sm-2,
@@ -39,7 +38,7 @@ position: relative;
   .col-lg-2,
   .col-xl-2 {
     padding: 0 15px;
-    width: 50%;
+    width: 16,6%;
   }
   .col-4,
   .col-sm-4,
@@ -47,15 +46,14 @@ position: relative;
   .col-lg-4,
   .col-xl-4 {
     padding: 0 15px;
-    width: 25%;
+    width: 33.3%;
   }
   .col-6,
   .col-sm-6,
   .col-md-6,
   .col-lg-6,
   .col-xl-6 {
-    padding: 0 15px;
-    width: 16.6%;
+    width: 50%;
 }
 @media screen and (max-width: 1140px) {
   .col-xl-3,
