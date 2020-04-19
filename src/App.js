@@ -5,7 +5,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { Button } from "./components/Button/Button";
 import { GridComponent } from "./components/grid/GridComponent";
 import { Cards } from "./components/cards/Cards";
-import { forms } from "./components/forms/forms";
+import { forms } from "./components/layouts/forms/forms";
 import { Alert } from "./components/alert/Alert";
 import { Headers } from "./components/Headers/Headers";
 

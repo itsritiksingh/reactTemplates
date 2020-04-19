@@ -17,6 +17,8 @@ import {Typography} from './Typography/Typography';
 import { HoverCard } from "./Cards/HoverCard/HoverCard";
 import { Spacer } from './Miscellenous/Spacer/Spacer'
 import { Line } from "./Miscellenous/Line";
+import {Table} from "./Table/Table";
+import {Form} from "./forms/forms";
 
 export {
   AlertComponent,
@@ -37,5 +39,7 @@ export {
   Header,
   HoverCard,
   Spacer,
-  Line
+  Line,
+  Table,
+  Form
 };

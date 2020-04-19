@@ -1,6 +1,6 @@
 .test-container {
-  width: 22rem;
-  
+  /* width: 22rem; */
+  width: 90%;
   background: #fff;
   border-radius: 1.2rem;
   overflow: hidden;

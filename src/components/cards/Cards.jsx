@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cards.css";
-import { Grid } from "../layouts/grid/Grid";
+import { Row,Column } from "../layouts/grid/Grid";
 import { CascadingCard } from "../layouts/CascadingCard/CascadingCard";
 import { TestimonialCard } from "../layouts/Cards/TestimonialCard/TestimonialCard";
 import { HoverCard } from "../layouts/Cards/HoverCard/HoverCard";
@@ -12,8 +12,8 @@ export const Cards = () => {
       <div className="Cards">
         <div className="container">
           <h1>Cascading Card</h1>
-          <div className="row">
-            <Grid type="col-sm-3">
+        <Row>
+           <Column>
               <CascadingCard
                 content={{
                   image:
@@ -26,8 +26,8 @@ export const Cards = () => {
                     "I am Kamal Nanda based in Delhi. I am persuing BCA from Vivekananda Institute of Professional Studies. I strive to learn new technologies and work on improving my skillset."
                 }}
               />
-            </Grid>
-            <Grid type="col-sm-3">
+          </Column>
+          <Column>
               <CascadingCard
                 content={{
                   image:
@@ -41,8 +41,8 @@ export const Cards = () => {
                     "I am Kamal Nanda based in Delhi. I am persuing BCA from Vivekananda Institute of Professional Studies. I strive to learn new technologies and work on improving my skillset."
                 }}
               />
-            </Grid>
-            <Grid type="col-sm-3">
+           </Column>
+           <Column>
               <CascadingCard
                 content={{
                   image:
@@ -55,11 +55,13 @@ export const Cards = () => {
                     "I am Kamal Nanda based in Delhi. I am persuing BCA from Vivekananda Institute of Professional Studies. I strive to learn new technologies and work on improving my skillset."
                 }}
               />
-            </Grid>
-          </div>
+           </Column>
+          </Row>
           <br />
           <h1>Testimonial Card</h1>
-          <div className="row">
+           </div>
+         </div>
+         <Row className="row-center">
             {/* <Grid type="col-sm-3">
               <TestimonialCard />
             </Grid>
@@ -69,7 +71,7 @@ export const Cards = () => {
             <Grid type="col-sm-3">
               <TestimonialCard />
             </Grid> */}
-            <Grid type="col-sm-2">
+           <Column>
               <TestimonialCard
                 options={{
                   src: "https://img.icons8.com/color/96/000000/avatar.png",
@@ -79,8 +81,8 @@ export const Cards = () => {
                     " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Faceremaxime aut ducimus praesentium aspernatur maiores minus laborum eaqui consectetur illum, dolorum"
                 }}
               />
-            </Grid>
-            <Grid type="col-sm-2">
+           </Column>
+           <Column>
               <TestimonialCard
                 options={{
                   src: "https://img.icons8.com/color/96/000000/morty-smith.png",
@@ -90,13 +92,21 @@ export const Cards = () => {
                     " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Faceremaxime aut ducimus praesentium aspernatur maiores minus laborum eaqui consectetur illum, dolorum"
                 }}
               />
-            </Grid>
-          </div>
-        </div>
-      </div>
+           </Column>
+           </Row>
 
       <Container style={{padding: 0,display: 'flex',justifyContent: 'center'}}>
-      <Grid type="col-sm-3" style={{padding: 0}}>
+      <Column>
+        {/* props : expand,shrink,translateUp,translateDown optional: style */}
+        <HoverCard shrink>
+       <h1>Hello</h1>
+       <h4>work</h4>
+       <h5>work</h5>
+       <h6>work</h6>
+      </HoverCard>
+      </Column>
+
+      <Column>
 
         {/* props : expand,shrink,translateUp,translateDown optional: style */}
         <HoverCard shrink>
@@ -105,18 +115,7 @@ export const Cards = () => {
        <h5>work</h5>
        <h6>work</h6>
       </HoverCard>
-      </Grid>
-
-      <Grid type="col-sm-3" style={{padding: 0}}>
-
-        {/* props : expand,shrink,translateUp,translateDown optional: style */}
-        <HoverCard shrink>
-       <h1>Hello</h1>
-       <h4>work</h4>
-       <h5>work</h5>
-       <h6>work</h6>
-      </HoverCard>
-      </Grid>
+      </Column>
       </Container>
     </>
   );

@@ -2,7 +2,8 @@
     background-size: cover;
     overflow: hidden;
    transition: all .5s ease-out;   
-   height: auto;
+   width :90%;
+   margin: 8px 0;
 
 }
 .hovercard:hover {

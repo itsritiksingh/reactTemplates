@@ -1,88 +1,88 @@
 import React from "react";
 import "./GridComponent.css";
-import { Grid } from "../layouts/grid/Grid";
+import { Row, Column } from "../layouts/grid/Grid";
 export const GridComponent = () => {
   return (
     <>
       <div className=".GridComponent">
-        <div className="row">
-          <Grid type="col-sm-2">
+        <Row>
+          <Column className="column-50">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab
               tenetur quos repellat. Hic deleniti beatae molestiae quidem
               perferendis natus dolores ea recusandae provident! Asperiores
               doloremque in corporis porro eveniet.
             </p>
-          </Grid>
-          <Grid type="col-sm-2">
+          </Column>
+          <Column className="column-50">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, voluptatem! Voluptate ipsam minima earum maiores
               totam pariatur sed temporibus quis tenetur dolorum at optio, natus
               fugiat atque alias unde cumque.
             </p>
-          </Grid>
-        </div>
+          </Column>
+        </Row>
       </div>
       <div className="GridComponent">
-        <div className="row">
-          <Grid type="col-md-2">
+      <Row>
+          <Column>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab
               tenetur quos repellat. Hic deleniti beatae molestiae quidem
               perferendis natus dolores ea recusandae provident! Asperiores
               doloremque in corporis porro eveniet.
             </p>
-          </Grid>
-          <Grid type="col-md-2">
+          </Column>
+          <Column>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, voluptatem! Voluptate ipsam minima earum maiores
               totam pariatur sed temporibus quis tenetur dolorum at optio, natus
               fugiat atque alias unde cumque.
             </p>
-          </Grid>
-        </div>
+          </Column>
+          </Row>
       </div>
       <div className="GridComponent">
-        <div className="row">
-          <Grid type="col-xl-2">
+      <Row>
+          <Column>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab
               tenetur quos repellat. Hic deleniti beatae molestiae quidem
               perferendis natus dolores ea recusandae provident! Asperiores
               doloremque in corporis porro eveniet.
             </p>
-          </Grid>
-          <Grid type="col-xl-2">
+          </Column>
+          <Column>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, voluptatem! Voluptate ipsam minima earum maiores
               totam pariatur sed temporibus quis tenetur dolorum at optio, natus
               fugiat atque alias unde cumque.
             </p>
-          </Grid>
-        </div>
+          </Column>
+          </Row>
       </div>
       <div className="GridComponent">
-        <div className="row">
-          <Grid type="col-lg-2">
+       <Row>
+          <Column>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ab
               tenetur quos repellat. Hic deleniti beatae molestiae quidem
               perferendis natus dolores ea recusandae provident! Asperiores
               doloremque in corporis porro eveniet.
             </p>
-          </Grid>
-          <Grid type="col-lg-2">
+          </Column>
+          <Column>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, voluptatem! Voluptate ipsam minima earum maiores
               totam pariatur sed temporibus quis tenetur dolorum at optio, natus
               fugiat atque alias unde cumque.
             </p>
-          </Grid>
-        </div>
+          </Column>
+          </Row>
       </div>
     </>
   );

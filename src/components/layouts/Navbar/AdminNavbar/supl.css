@@ -1,0 +1,12 @@
+._mainNav {
+    justify-content: space-between;
+}
+
+._mainNav , .leftUl , .rightUl {
+    display: flex;
+    align-items: center;
+}
+
+.leftUl,.rightUl {
+    justify-content: center;
+}

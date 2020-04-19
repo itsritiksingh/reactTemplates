@@ -3,6 +3,13 @@ import { SimpleNavBar } from "../layouts/SimpleNavBar/SimpleNavBar";
 import { NavbarResponsive } from "../layouts/Navbar/NavbarResponsive/NavbarResponsive.jsx";
 import { MaterialNavBar } from "../layouts/Navbar/MaterialNavBar/MaterialNavBar";
 import { AppBar } from "../layouts/Navbar/AppBar/AppBar";
+import {
+  AdminNavbar,
+  Left,
+  Right,
+  SideNav,
+} from "../layouts/Navbar/AdminNavbar/AdminNavbar";
+
 export const NavBar = () => {
   return (
     <>
@@ -137,6 +144,107 @@ export const NavBar = () => {
           <a href="/">first</a>
         </li>
       </AppBar>
+
+      <br />
+      <br />
+      <br />
+      <AdminNavbar>
+        <Left>
+          <li>lorem</li>
+          <li>ipsum</li>
+          <li>dolor</li>
+        </Left>
+        <Right>
+          <li>lorem</li>
+          <li>ipsum</li>
+          <li>dolor</li>
+        </Right>
+        <SideNav>
+          <div className="category">Category</div>
+          <div className="link">
+            To the nnew
+          <ul>
+            <li>lorem</li>
+            <li>ipsum</li>
+            <li>dolor</li>
+            </ul>
+          </div>
+          <div className="category">Category</div>
+          <div className="link">
+            To the nnew
+          <ul>
+            <li>lorem</li>
+            <li>ipsum</li>
+            <li>dolor</li>
+            </ul>
+          </div>
+          <div className="category">Category</div>
+          <div className="link">
+            To the nnew
+          <ul>
+            <li>lorem</li>
+            <li>ipsum</li>
+            <li>dolor</li>
+            </ul>
+          </div>
+        </SideNav>
+      </AdminNavbar>
+
+      <br/>
+      <br/>
+      <br/>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt facilis delectus eveniet aspernatur, perspiciatis ipsam officiis quos facere reiciendis accusantium omnis sint possimus natus quidem dicta! Ipsum, tempore. Molestias.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorum dolorem veniam voluptate sunt tempore deserunt? Voluptatibus assumenda vel quia vero labore rem eos adipisci tempora, nisi obcaecati, eaque ea.
     </>
   );
 };

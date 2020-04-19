@@ -1,8 +1,7 @@
 ._container {
-    padding: 4.5rem;
-}
-@media screen and (max-width: 720px) {
-    ._container {
-        padding: 1.5rem;
-    }  
+    margin: 0 auto;
+    max-width: 112.0rem;
+    padding: 0 2.0rem;
+    position: relative;
+    width: 100%;
 }
